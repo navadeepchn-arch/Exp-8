@@ -1,0 +1,107 @@
+/* ─── Global ───────────────────────────── */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0d0f14;
+  color: #fff;
+}
+
+/* ─── Container ────────────────────────── */
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #111827, #0d0f14);
+}
+
+/* ─── Card ─────────────────────────────── */
+.card {
+  width: 380px;
+  padding: 30px;
+  border-radius: 16px;
+  background: #13161e;
+  border: 1px solid #1f2535;
+  box-shadow: 0 0 40px rgba(0, 229, 255, 0.08);
+  text-align: center;
+}
+
+/* ─── Titles ───────────────────────────── */
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #00e5ff, #7b61ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* ─── Form ─────────────────────────────── */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #2a3145;
+  background: #0d0f14;
+  color: white;
+  outline: none;
+}
+
+input:focus {
+  border-color: #00e5ff;
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.2);
+}
+
+/* ─── Button ───────────────────────────── */
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00e5ff, #7b61ff);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* ─── Messages ─────────────────────────── */
+.error {
+  color: #ff4d6d;
+  font-size: 13px;
+}
+
+.success {
+  color: #22c55e;
+  font-size: 13px;
+}
+
+/* ─── Dashboard ────────────────────────── */
+.dashboard h2 {
+  color: #00e5ff;
+}
+
+.dashboard p {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.logout {
+  margin-top: 15px;
+  background: #ff4d6d;
+  color: white;
+}
